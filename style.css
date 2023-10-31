@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  font-size: 150%;
+  background-color: #ece3ce;
+  color: #3a4d39;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding-top: 100px; */
+  justify-content: center;
+}
+
+.list ul {
+  flex-wrap: wrap;
+  list-style: none;
+  display: flex;
+  /* flex-direction: column; */
+  gap: 10px;
+}
+.list ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #3a4d39;
+  cursor: pointer;
+}

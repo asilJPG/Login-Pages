@@ -1,0 +1,129 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.main {
+  width: 1400px;
+  height: 565px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.main .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 409px;
+  height: 49px;
+  gap: 20px;
+}
+.main .text h1 {
+  font-family: Rubik;
+  font-size: 36px;
+  color: var(--Text, #363940);
+  /* font-weight: 500; */
+}
+.main .text p {
+  font-family: Rubik;
+  color: var(--Neutral-4, #95a1bb);
+}
+.main .inputs {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.main .inputs input {
+  width: 350px;
+  height: 15px;
+  border-radius: 4px;
+  padding: 15px;
+}
+.main .inputs .button {
+  width: 380px;
+  height: 46px;
+  border-radius: 4px;
+  background: var(--Primary, #6e38f7);
+  color: #fff;
+  text-align: center;
+}
+.video1 {
+  width: 610px;
+  height: 365px;
+  background-color: #95a1bb;
+}
+.main .inputs input::placeholder {
+  padding: 15px;
+}
+.br {
+  width: 1400px;
+  height: 20px;
+  background-color: #95a1bb;
+}
+
+/* /////////////////// */
+
+.main1 {
+  width: 1400px;
+  height: 565px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.main1 .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 409px;
+  height: 49px;
+  gap: 20px;
+}
+.main1 .text h1 {
+  font-family: Rubik;
+  font-size: 36px;
+  color: var(--Text, #363940);
+  /* font-weight: 500; */
+}
+.main11 .text p {
+  font-family: Rubik;
+  color: var(--Neutral-4, #95a1bb);
+}
+.main1 .inputs {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.main1 .inputs input {
+  width: 350px;
+  height: 15px;
+  border-radius: 4px;
+  padding: 15px;
+}
+.main1 .inputs .button {
+  width: 380px;
+  height: 46px;
+  border-radius: 4px;
+  background: var(--Primary, #6e38f7);
+  color: #fff;
+  text-align: center;
+}
+.main1 .video1 {
+  width: 610px;
+  height: 565px;
+  background-color: #95a1bb;
+}
+.main1 .inputs p {
+  margin-top: 15px;
+  text-align: center;
+}
+.main1 .inputs input::placeholder {
+  padding: 15px;
+}
+.br {
+  width: 1400px;
+  height: 20px;
+  background-color: #95a1bb;
+}

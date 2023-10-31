@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.style1 {
+  width: 1400px;
+  height: 383px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.style1 h1 {
+  color: var(--Text, #363940);
+  font-family: Rubik;
+  font-size: 36px;
+}
+.style1 p {
+  text-align: center;
+  display: flex;
+  width: 410px;
+  height: 44px;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: var(--Neutral-4, #95a1bb);
+}
+.style1 .inputs {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  font-family: Rubik;
+}
+.style1 .inputs .email1 {
+  width: 241px;
+  height: 46px;
+  font-size: 16px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.style1 .inputs .email1::placeholder {
+  padding: 15px;
+  color: var(--Neutral-4, #95a1bb);
+}
+.style1 .inputs .button1 {
+  width: 133px;
+  height: 46px;
+  font-size: 16px;
+  text-align: center;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: #6e38f7;
+  color: #ffffff;
+}
+.br {
+  width: 1400px;
+  height: 20px;
+  background-color: #95a1bb;
+}
+
+/* ///////////////////////////////// */
+
+.style2 {
+  width: 1400px;
+  height: 383px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.style2 h1 {
+  color: var(--Text, #363940);
+  font-family: Rubik;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.style2 p {
+  width: 410px;
+  height: 44px;
+  flex-wrap: wrap;
+  color: var(--Neutral-4, #95a1bb);
+}
+.style2 .inputs {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: flex-end;
+  font-family: Rubik;
+}
+.style2 .inputs .email1 {
+  width: 241px;
+  height: 46px;
+  font-size: 16px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.style2 .inputs .email1::placeholder {
+  padding: 15px;
+  color: var(--Neutral-4, #95a1bb);
+}
+.style2 .inputs .button1 {
+  width: 133px;
+  height: 46px;
+  font-size: 16px;
+  text-align: center;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: #6e38f7;
+  color: #ffffff;
+}
+.br {
+  width: 1400px;
+  height: 20px;
+  background-color: #95a1bb;
+}
